@@ -58,5 +58,5 @@ def adjust_calories(tdee, phase, deficit=250):
     else:
         return round(tdee,1)
     
-print(adjust_calories(2012.3432, "menstrual"))
+
 
