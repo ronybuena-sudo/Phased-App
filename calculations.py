@@ -1,4 +1,4 @@
-from datetime import date, timedelta
+from datetime import date
 # Basic calculations for phased app 
 
 lbs = True
