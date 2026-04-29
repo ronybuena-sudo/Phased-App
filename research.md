@@ -32,3 +32,8 @@
 - progesterone rises and BMR increases 
 - CALORIE INTAKE: typically 150 to 300 more calories is needed 
 - due to progesterone rising, it raises the metabolic rate causing cravings to be stronger before a period 
+
+## Cycle Length
+- average cycle length = 28 days 
+- typically lasts 21 to 35 days 
+- app will default to 28 days unless otherwise specified
