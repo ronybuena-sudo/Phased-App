@@ -50,7 +50,13 @@ def get_current_phase(last_period_date, cycle_length=28):
 
 # Takes TDEE and current phase
 # Returns adjusted calorie target
-def adjust_calories(tdee, phase):
-    pass
-
+def adjust_calories(tdee, phase, deficit=250):
+    if phase == "follicular": 
+        return round(tdee - deficit, 1)
+    elif phase == "luteal":
+        return round(tdee + 200, 1)
+    else:
+        return round(tdee,1)
+    
+print(adjust_calories(2012.3432, "menstrual"))
 
