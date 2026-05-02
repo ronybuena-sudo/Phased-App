@@ -58,5 +58,3 @@ def adjust_calories(tdee, phase, deficit=250):
     else:
         return round(tdee,1)
     
-
-
