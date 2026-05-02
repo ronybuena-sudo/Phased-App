@@ -15,5 +15,17 @@ def login():
 def signup():
     return render_template("signup.html")
 
+@app.route("/onboard1")
+def onboard1():
+    return render_template("onboard1.html")
+
+@app.route("/onboard2")
+def onboard2():
+    return render_template("onboard2.html")
+
+@app.route("/onboard3")
+def onboard3():
+    return render_template("onboard3.html")
+
 if __name__ == "__main__":
     app.run(debug=True)

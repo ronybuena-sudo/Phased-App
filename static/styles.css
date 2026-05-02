@@ -25,6 +25,13 @@ h1 {
     padding-bottom: 10px;
 }
 
+h2 {
+    font-style: italic;
+    color: #b5546a;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
 p {
     color: #e08aa0;
     font-size: 1rem;
@@ -61,6 +68,16 @@ input {
     border: 1px solid #c45c7a;
     border-radius:25px;
     width: 250px;
+}
+
+select {
+    border: 2px solid #e08aa0;
+    border-radius: 25px;
+    padding: 8px 10px;
+    background-color: white;
+    color: #c45c7a;
+    font-family: 'Georgia', serif;
+    font-size: 1rem;
 }
 
 .glow {

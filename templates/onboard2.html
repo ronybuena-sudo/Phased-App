@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Phased</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+    <body>
+        <div class="container">
+            <div class="glow"></div>
+            <div class="content">
+                <h1>Your journey is only beginning</h1>
+                <div>
+                    <h2>What's your goal weight?</h2>
+                    <input type="number" id="weight" name="weight" placeholder="Enter Your Weight">
+                    <select name="unit" id="unit">
+                        <option value="kg">kg</option>
+                        <option value="lbs">lbs</option>
+                    </select>    
+                </div>            
+                <div>
+                    <h2>How much weight do you want to lose per week?</h2>
+                    <select name="weightloss" id="weightloss">
+                        <option value="1">-1.0 lb / -0.454 kg per week</option>
+                        <option value=".75">-.75 lb / -0.340 kg per week</option>
+                        <option value=".5">-0.5 lb / -0.23 kg per week</option>
+                    </select>
+                </div>
+                <a href="/onboard3"><button>Next</button></a>
+            </div>
+        </div>
+    </body>
+</html>
