@@ -48,6 +48,21 @@ button:hover {
     color: white;
 }
 
+a {
+    text-decoration: none;
+}
+
+input {
+    font-family: inherit;
+    font-size: 1rem;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #c45c7a;
+    border-radius:25px;
+    width: 250px;
+}
+
 .glow {
     position: absolute;
     top: 50%;
